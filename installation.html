@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- BEGIN: Head -->
+  <head>
+    <meta charset="utf-8" />
+    <link href="dist/images/logo.png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Documentation for Metric OS project." />
+    <meta name="author" content="DaniloGB" />
+    <title>Metric OS Docs</title>
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <!-- END: CSS Assets-->
+  </head>
+  <!-- END: Head -->
+  <body>
+    <div class="container grid grid-cols-12 -my-3 min-h-screen relative z-10">
+      <div class="col-span-3 bg-gray-800 py-10">
+        <a href="index.html" class="intro-x flex items-center pl-5 mb-8">
+          <img class="w-12" src="dist/images/logo.png" />
+          <span class="hidden xl:block text-2xl ml-3"> Metric OS Docs </span>
+        </a>
+        <a
+          href="index.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out font-medium"
+          >Getting Started</a
+        >
+        <a
+          href="folder-structure.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
+          >Folder Structure</a
+        >
+        <a
+          href="installation.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out bg-gray-900"
+          >Installation</a
+        >
+      </div>
+      <div class="col-span-9 border-l border-gray-800 bg-gray-900 py-10 px-10">
+        <h1
+          class="intro-y text-2xl font-medium pb-8 mb-10 border-b border-gray-800"
+        >
+          Installation
+        </h1>
+        <h2
+          class="intro-y text-xl font-medium pb-5 mb-5 border-b border-gray-800"
+        >
+          Installation Process - Frontend - Developers
+        </h2>
+        <div class="intro-y leading-relaxed">
+          <p class="mb-3">
+            The following process will be used to install Metric OS frontend
+            code.
+          </p>
+          <ul class="list-decimal ml-6">
+            <li class="mt-4">
+              Clone or download the repository:
+              <a
+                href="https://github.com/Danilo-GB/MetricOS"
+                target="_blank"
+                rel="noopenner noreferer"
+                ><span class="text-yellow-500 font-medium">Github Link</span></a
+              >
+            </li>
+            <li class="mt-4">Install Yarn from https://yarnpkg.com</li>
+            <li class="mt-4">
+              Extract downloaded project files : Extract the Metric OS project
+              to your suitable directory or folder.
+            </li>
+            <li class="mt-4">Access console : Open node.js console.</li>
+            <li class="mt-4">
+              In console, navigate to the location where main folder is
+              extracted.
+            </li>
+            <li class="mt-4">
+              Navigate to the
+              <span class="text-yellow-500 font-medium">Source</span> folder
+              inside main folder.
+            </li>
+            <li class="mt-4">
+              Run
+              <span class="text-yellow-500 font-medium">yarn install</span> or
+              <span class="text-yellow-500 font-medium">npm install</span>
+              command to install package dependencies.
+            </li>
+            <li class="mt-4">
+              Run
+              <span class="text-yellow-500 font-medium">yarn run dev</span> or
+              <span class="text-yellow-500 font-medium">npm run dev</span> to
+              start compiling assets or
+              <span class="text-yellow-500 font-medium">yarn run build</span> or
+              <span class="text-yellow-500 font-medium">npm run build</span> for
+              production use.
+            </li>
+            <li class="mt-4">
+              The frontend aplication needs the backend project in order to
+              retrieve data.
+            </li>
+          </ul>
+        </div>
+        <h2
+          class="intro-y text-xl font-medium py-5 my-5 border-b border-t border-gray-800"
+        >
+          Installation Process - Frontend - Final users
+        </h2>
+        <div class="intro-y leading-relaxed">
+          <p class="mb-3">
+            The following process will be used to install Metric OS frontend
+            desktop application.
+          </p>
+          <ul class="list-decimal ml-6">
+            <li class="mt-4">
+              Clone or download the repository:
+              <a
+                href="https://github.com/Danilo-GB/Metric-OS-Desktop-App"
+                target="_blank"
+                rel="noopenner noreferer"
+                ><span class="text-yellow-500 font-medium">Github Link</span></a
+              >
+            </li>
+            <li class="mt-4">
+              Extract downloaded project files: Extract the Metric OS folder to
+              your suitable directory or folder.
+            </li>
+            <li class="mt-4">
+              Run the install file:
+              <span class="text-yellow-500 font-medium">
+                metric-os Setup 1.0.0.exe</span
+              >
+            </li>
+            <li class="mt-4">
+              The frontend aplication needs the backend project in order to
+              retrieve data.
+            </li>
+          </ul>
+        </div>
+        <h2
+          class="intro-y text-xl font-medium py-5 my-5 border-b border-t border-gray-800"
+        >
+          Installation Process - Backend - All
+        </h2>
+        <div class="intro-y leading-relaxed">
+          <p class="mb-3">
+            The following process will be used to install Metric OS backend
+            project.
+          </p>
+          <ul class="list-decimal ml-6">
+            <li class="mt-4">
+              Clone or download the repository:
+              <a
+                href="https://github.com/Danilo-GB/MetricOs-services"
+                target="_blank"
+                rel="noopenner noreferer"
+                ><span class="text-yellow-500 font-medium">Github Link</span></a
+              >
+            </li>
+            <li class="mt-4">
+              Extract downloaded project files: Extract the Metric OS folder to
+              your suitable directory or folder.
+            </li>
+            <li class="mt-4">
+              Install Composer from https://getcomposer.org/download/
+            </li>
+            <li class="mt-4">
+              In a console, navigate to the location where main folder is
+              extracted.
+            </li>
+            <li class="mt-4">
+              Run:
+              <span class="text-yellow-500 font-medium">composer install</span>
+            </li>
+            <li class="mt-4">
+              Recommendation: Use
+              <span class="text-yellow-500 font-medium">laragon</span> as your
+              development environment in order to execute apache and mysql
+              servers.
+            </li>
+            <li class="mt-4">
+              <span class="text-yellow-500 font-medium">We are ready!</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN: JS Assets-->
+    <script src="dist/js/app.js"></script>
+    <!-- END: JS Assets-->
+  </body>
+</html>

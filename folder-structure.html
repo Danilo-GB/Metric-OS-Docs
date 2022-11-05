@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- BEGIN: Head -->
+  <head>
+    <meta charset="utf-8" />
+    <link href="dist/images/logo.png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Documentation for Metric OS project." />
+    <meta name="author" content="DaniloGB" />
+    <title>Metric OS Docs</title>
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <!-- END: CSS Assets-->
+  </head>
+  <!-- END: Head -->
+  <body>
+    <div class="container grid grid-cols-12 -my-3 min-h-screen relative z-10">
+      <div class="col-span-3 bg-gray-800 py-10">
+        <a href="index.html" class="intro-x flex items-center pl-5 mb-8">
+          <img class="w-12" src="dist/images/logo.png" />
+          <span class="hidden xl:block text-2xl ml-3"> Metric OS Docs </span>
+        </a>
+        <a
+          href="index.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out font-medium"
+          >Getting Started</a
+        >
+        <a
+          href="folder-structure.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out bg-gray-900"
+          >Folder Structure</a
+        >
+        <a
+          href="installation.html"
+          class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out"
+          >Installation</a
+        >
+      </div>
+      <div class="col-span-9 border-l border-gray-800 bg-gray-900 py-10 px-10">
+        <h2
+          class="intro-y text-xl font-medium pb-5 mb-5 border-b border-gray-800"
+        >
+          Folder Structure
+        </h2>
+        <div class="intro-y leading-relaxed">
+          <p class="mb-3">
+            Understand folder structure of template and what everything contains
+          </p>
+        </div>
+        <h2
+          class="intro-y text-xl font-medium pb-5 mb-5 mt-5 border-b border-gray-800"
+        >
+          Main Package
+        </h2>
+        <div class="intro-y flex items-start mt-10">
+          <div class="intro-y w-full">
+            <ul
+              class="zoom-in w-full pb-8 pt-6 px-8 rounded-md bg-gray-800 mr-5"
+            >
+              <li>
+                <div class="flex items-center font-medium">
+                  <i data-feather="folder" class="h-5 mr-3"></i> Source
+                </div>
+                <ul>
+                  <li class="ml-5 mt-4">
+                    <div class="flex items-center">
+                      <i data-feather="folder" class="h-5 mr-3"></i> src
+                    </div>
+                    <ul>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          components
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Cards
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Charts
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Footers
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Headers
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Modals
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Selectors
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Sidebars
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Widgets
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> layouts
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> locales
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          en.json (English config)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          es.json (Spanish config)
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> plugins
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> router
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> scss
+                          (CSS configurations)
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> store
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          useChartStore.js (charts state management)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          useDashStore.js (dashboard state management)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          useDbStore.js (database state management)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          useStatisticsStore.js (statistics dashboard state
+                          management)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          useStComponentsStore.js (state management for the
+                          components related to statistics)
+                        </div>
+                      </li>
+                      <li class="ml-5 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i> views
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          404.vue (404 page)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          AnalyticsDashboard.vue (statistics dashboard)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Dashboard.vue (metrics dashboard)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Database.vue (database register)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          Layout.vue (internal metrics dashboard Layout)
+                        </div>
+                      </li>
+                      <li class="ml-10 mt-4">
+                        <div class="flex items-center">
+                          <i data-feather="folder" class="h-5 mr-3"></i>
+                          statistics.vue (internal statistics dashboard Layout)
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="ml-5 mt-4">
+                    <div class="flex items-center">
+                      <i data-feather="file-text" class="h-5 mr-3"></i>
+                      package.json
+                    </div>
+                  </li>
+                  <li class="ml-5 mt-4">
+                    <div class="flex items-center">
+                      <i data-feather="file-text" class="h-5 mr-3"></i> ...
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN: JS Assets-->
+    <script src="dist/js/app.js"></script>
+    <!-- END: JS Assets-->
+  </body>
+</html>
